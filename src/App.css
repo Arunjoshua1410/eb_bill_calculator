@@ -1,0 +1,154 @@
+/* header */
+.header__left{
+  display: flex;
+  align-items: center;
+  margin: 0% 2%;
+}
+.header__links{
+     width: 30vw;
+     
+}
+.header__links:hover{
+    font-size: 18px;
+   
+  
+}
+
+
+.bg{
+    background-color:aqua;
+}
+/* footer */
+.footer{
+   padding: 30px;
+   background-color: rgb(241,241,241);
+}
+
+/* Tips */
+.tips-header{
+  background-color:rgb(212,212,212);
+  margin-top: 10%;
+}
+.bonus-bg{
+    background-color: rgb(240,248,255);
+    padding: 20px;
+    margin-bottom: 80px;
+}
+.saving{
+     padding: 100px;
+}
+
+/* calculator */
+.caclulator-head{
+     padding: 2%;
+     margin: 0px 45px 0 45px;
+}
+
+.guide{
+    margin-top: 25px;
+}
+.calculator__inner{
+    margin: 5% 2%;
+}
+.calculator__inner__box{
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    background-color: aliceblue;
+    border-radius: 5%;
+    box-shadow: 5px 1px 10px 5px rgb(230, 230, 230);
+}
+.cal-input{
+    padding: 2%;
+    border: none;
+}
+.cal-sub-but{
+     border: none;
+     padding: 2%;
+     color:rgb(255, 255, 255) ;
+     background-color: rgb(0, 0, 0);
+}
+.cal-clear-but{
+     border: none;
+     padding: 2%;
+     color: black;
+     background-color: white;
+     padding: 2%;
+     gap: 15px;
+}
+
+/* chart */
+.chart-1{
+    margin-top: 45px;
+}
+.sub-b-text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+.chart-box__inner{
+    background-color: rgb(255, 255, 255);
+    padding: 5%;
+    margin: 2%;
+}
+table{
+     width: 100%;
+     margin: 20px auto;
+     border-collapse: collapse;
+     font-family: Arial, sans-serif;
+     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+thead {
+    background-color: #f2f2f2;
+  }
+  thead th {
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  td, th {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  th {
+    background-color: #000000;
+    color: white;
+  }
+
+  
+@media (max-width: 992px) {
+    .header__left{
+      display: flex;
+      justify-content:space-between;
+      align-items: center;
+      padding: 1% 2%;
+      border-bottom: 3px solid rgb(130, 130, 130);
+      margin: 0% 2%;
+    }
+    .home-welcome{
+      min-height: auto;
+    }
+    .header__links{
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      height: 5vh;
+    }
+    .header__link{
+      text-decoration: none;
+      color: black;
+      width: auto;
+      text-align: center;
+      transition: .2s;
+    }
+  }
+  
+  @media (max-width: 550px) {
+    .home-h1{
+      font-size: 2em;
+    } 
+  }
