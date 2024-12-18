@@ -26,4 +26,3 @@ function App() {
 
 export default App;
 
-// https://ebcalculator.netlify.app/calculator
